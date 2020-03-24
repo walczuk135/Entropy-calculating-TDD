@@ -1,5 +1,5 @@
 package service.formatter;
 
-public interface FormatText {
+interface FormatText {
     String formatter(String edit);
 }

@@ -1,8 +1,8 @@
 package service.formatter;
 
-class LowerCaseFormatter implements FormatText {
+public class DefaultFormat implements FormatText {
     @Override
     public String formatter(String edit) {
-        return edit.toLowerCase();
+        return edit;
     }
 }

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class WithoutSpecialCharFormatterTest {
+class WithoutSpecialCharFormatterTest {
     @Test
     void shouldCreateInstance() {
         //when
