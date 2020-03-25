@@ -1,4 +1,4 @@
-package algorithm;
+package service.algorithm;
 
 import model.Data;
 import org.junit.jupiter.api.BeforeEach;

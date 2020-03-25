@@ -1,10 +1,10 @@
-package algorithm;
+package service.algorithm;
 
 import model.Data;
 import model.Statistic;
 
 
-public class ShannonAlgorithmEntropy implements AlgorithmEntropy{
+class ShannonAlgorithmEntropy implements AlgorithmEntropy{
 
     @Override
     public String calculate(Data data) {

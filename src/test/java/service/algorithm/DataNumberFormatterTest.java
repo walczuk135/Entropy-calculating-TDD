@@ -1,4 +1,4 @@
-package algorithm;
+package service.algorithm;
 
 
 import org.junit.jupiter.params.ParameterizedTest;

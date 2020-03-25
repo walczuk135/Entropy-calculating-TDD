@@ -1,4 +1,4 @@
-package algorithm;
+package service.algorithm;
 
 class DataNumberFormatter {
     public static String formatter(Double test) {
