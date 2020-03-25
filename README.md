@@ -10,3 +10,5 @@ H(X)  =  \            - 1 times -------- times log  |--------|
          /__ i  =  1                N             2 \    N   / 
 
 ```
+This design calculates entropy (Shannon algorithm, other entropy algorithms in the future) containing text messages based on symbol frequency.
+
