@@ -12,3 +12,4 @@ H(X)  =  \            - 1 times -------- times log  |--------|
 ```
 This design calculates entropy (Shannon algorithm, other entropy algorithms in the future) containing text messages based on symbol frequency.
 
+The project was created about the TDD methodology.
