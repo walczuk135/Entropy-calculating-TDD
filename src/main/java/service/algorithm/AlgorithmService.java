@@ -1,9 +1,6 @@
 package service.algorithm;
 
-import service.FormatterKey;
-import service.algorithm.AlgorithmEntropy;
 import model.Data;
-import service.formatter.FormatterTextService;
 
 public class AlgorithmService {
     private AlgorithmEntropy algorithmEntropy;
@@ -25,8 +22,4 @@ public class AlgorithmService {
         this.data=new Data(dataString);
         return algorithmEntropy.calculate(data);
     }
-
-
-
-
 }
