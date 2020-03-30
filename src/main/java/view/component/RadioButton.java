@@ -3,7 +3,7 @@ package view.component;
 import javax.swing.*;
 import java.awt.*;
 
-class RadioButton extends JPanel {
+public class RadioButton extends JPanel {
     private final JRadioButton upperCaseButton;
     private final JRadioButton lowerCaseButton;
     private final JRadioButton defaultCase;
@@ -15,7 +15,7 @@ class RadioButton extends JPanel {
     public RadioButton() {
         super();
         this.upperCaseButton = new JRadioButton("To upper case");
-        this.lowerCaseButton = new JRadioButton("To upper case");
+        this.lowerCaseButton = new JRadioButton("To lower case");
         this.defaultCase = new JRadioButton("To default case");
         this.withoutAlphabeticCharButton=new JRadioButton("To without alphabetic char");
         this.withoutNumberButton=new JRadioButton("To without number");

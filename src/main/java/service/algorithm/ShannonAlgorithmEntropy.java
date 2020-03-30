@@ -4,7 +4,7 @@ import model.Data;
 import model.Statistic;
 
 
-class ShannonAlgorithmEntropy implements AlgorithmEntropy{
+public class ShannonAlgorithmEntropy implements AlgorithmEntropy{
 
     @Override
     public String calculate(Data data) {

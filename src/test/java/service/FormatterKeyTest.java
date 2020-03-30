@@ -16,7 +16,6 @@ class FormatterKeyTest {
 
     @Test
     void shouldGetAllFormatterValues() {
-
         //when
         FormatterKey[] values = FormatterKey.values();
         //then

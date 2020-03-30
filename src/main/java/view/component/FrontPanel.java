@@ -1,5 +1,7 @@
 package view.component;
 
+import view.ControllerListener;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -9,14 +11,12 @@ public class FrontPanel extends JPanel {
     private final RadioButton radioButton;
     private final MainButton mainButton;
 
-   // private final ControllerListener controllerListener;
-
     public FrontPanel() {
         super();
         mainPanel=new MainPanel();
         radioButton=new RadioButton();
         mainButton=new MainButton();
-        //controllerListener = new ControllerListener(textArea, editorPane, ignoreUpperCaseRadioButton, ignoreWhiteCharRadioButton, defaultCase);
+        mainButton.getButtonMain().addActionListener(new ControllerListener(mainButton,radioButton,mainPanel));
         createPanels();
     }
 
@@ -25,7 +25,6 @@ public class FrontPanel extends JPanel {
         this.add(radioButton,BorderLayout.NORTH);
         this.add(mainPanel, BorderLayout.CENTER);
         this.add(mainButton, BorderLayout.SOUTH);
-
     }
 
 }

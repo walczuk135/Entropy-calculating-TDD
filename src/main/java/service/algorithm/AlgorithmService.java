@@ -20,6 +20,10 @@ public class AlgorithmService {
 
     public String calculate(String dataString){
         this.data=new Data(dataString);
-        return algorithmEntropy.calculate(data);
+        return algorithmEntropy.calculate(data)+"\n"+getStatistics();
+    }
+
+    public String getStatistics(){
+        return data.getStatistic().getStatCount().toString();
     }
 }

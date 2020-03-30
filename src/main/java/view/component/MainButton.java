@@ -3,12 +3,14 @@ package view.component;
 import javax.swing.*;
 import java.awt.*;
 
-class MainButton extends JPanel {
+public class MainButton extends JPanel {
     private final JButton buttonMain;
 
     public MainButton() {
         super();
+
         buttonMain=new JButton("Generate");
+
         createMainButton();
     }
 
@@ -20,4 +22,6 @@ class MainButton extends JPanel {
     public JButton getButtonMain() {
         return buttonMain;
     }
+
+
 }

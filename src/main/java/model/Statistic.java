@@ -1,6 +1,7 @@
 package model;
 
 import java.util.Map;
+import java.util.StringJoiner;
 import java.util.stream.Collectors;
 
 public class Statistic {
@@ -19,5 +20,14 @@ public class Statistic {
                 .collect(Collectors
                         .groupingBy(e -> e,
                                 Collectors.counting()));
+    }
+
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", Statistic.class.getSimpleName() + "[", "]")
+                .add("statCount=" + statCount)
+                .add("\n")
+                .toString();
     }
 }

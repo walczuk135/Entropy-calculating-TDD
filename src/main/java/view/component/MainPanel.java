@@ -3,7 +3,7 @@ package view.component;
 import javax.swing.*;
 import java.awt.*;
 
-class MainPanel extends JPanel {
+public class MainPanel extends JPanel {
     private final JTextArea textArea;
     private final JEditorPane editorPane;
 
