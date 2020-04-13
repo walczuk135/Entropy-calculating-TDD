@@ -24,6 +24,6 @@ public class AlgorithmService {
     }
 
     public String getStatistics(){
-        return data.getStatistic().getStatCount().toString();
+        return data.getStatistic().toString();
     }
 }
