@@ -37,4 +37,4 @@ Project is: _finished
 Willingness to learn TDD
 
 ## Contact
-Created by [walczuk135](walczuk135@gmail.com) - feel free to contact me!
+Created by [walczuk135@gmail.com](walczuk135@gmail.com) - feel free to contact me!
